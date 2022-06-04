@@ -77,7 +77,7 @@ const Transaction = () => {
             {ulist && <><h6 style={{'marginTop':'30px'}}>Search Results:</h6><User data = {ulist} cmp = {shusr.name} /></>}<br/><br/>
             {!stat && <>{sel && <form style={{'marginLeft':'0px'}} onSubmit={transfer}>
                 <label>Enter Amount: </label>
-                <br/><input style={{'display':'inline'}} className="form-control" type='number' value={amt} max={parseInt(shusr.bal)} onChange={capamt} />{' '}
+                <br/><input style={{'display':'inline'}} className="form-control" type='number' value={amt} max={parseInt(shusr.bal)} min='1' onChange={capamt} />{' '}
                 <button style={{'marginLeft': '5px'}} className="btn btn-warning" type='submit'>Transfer</button>
             </form>}</>}
             {stat && <h4 style={{'color':'#39a84a'}}>{stat}</h4>}</div>}
