@@ -1,0 +1,70 @@
+*{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+
+body{
+    background: url(./res/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.rnd{
+    color:blue;
+    padding: 3px;
+    border-radius: 9px;
+}
+
+.rnd:hover{
+    background-color:#3c5cc7;
+    color:white;
+    padding: 3px;
+    border-radius: 9px;
+}
+
+.rem{
+    color:matte-red;
+    padding: 3px;
+    border-radius: 9px;
+}
+
+.form-control{
+    width:250px
+}
+
+form{
+    margin-left:20px
+}
+
+.tpl{
+    margin-top: 35px;
+}
+
+
+h1{
+    margin: 0px 0px 30px 20px;
+}
+
+.bg-dark, .cen{
+    display: flex;
+    justify-content: center;
+}
+
+.ctm{
+    margin-left: 20px;
+    width: 180px;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px; 
+    margin-top: 15px;   
+}
+
+.mgn{
+    margin-left: 20px;
+}
+
+
+.btn{
+    margin-left: 80px;
+}
